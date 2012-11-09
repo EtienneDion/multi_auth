@@ -1,0 +1,32 @@
+{
+  "author": "Etienne Dion <etienne.dion@nurun.com>",
+  "name": "AuthTest",
+  "description": "Working session",
+  "version": "0.0.1",
+  "scripts": {
+      "start": "node app"
+  },
+  "repository": {
+      "url": "git:git@github.com:yannikmethot/Session1.git"
+  },
+  "dependencies": {
+    "express": "3.x.x",
+    "connect-flash": "0.1.x",
+    "ejs": ">= 0.0.0",
+    "ejs-locals": ">= 0.0.0",
+    "passport": ">= 0.1.12",
+    "passport-local": ">= 0.0.0",
+    "passport-twitter": ">= 0.0.0",
+    "passport-facebook": ">= 0.1.4",
+    "passport-google": ">= 0.0.0",
+    "passport-linkedin": ">= 0.0.0",
+    "passport-github": ">= 0.0.0",
+    "mongolian": "~0.1.18"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+      "node": "*"
+  },
+  "keywords": ["passport", "facebook", "auth", "authentication", "identity"]
+}

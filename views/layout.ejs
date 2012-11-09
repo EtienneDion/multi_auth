@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Passport</title>
+	</head>
+	<body>
+		<% if (!user) { %>
+			<p>
+			    <a href="/">Home</a> |
+			    <a href="/login">Log In</a> or Log in with :
+			    <a href="/auth/twitter">Twitter</a> |
+                <a href="/auth/facebook">Facebook</a> |
+                <a href="/auth/google">Google</a> |
+                <a href="/auth/linkedin">LinkedIn</a> |
+                <a href="/auth/github">GitHub</a>
+			</p>
+		<% } else { %>
+			<p>
+			<a href="/">Home</a> | 
+			<a href="/account">Account</a> | 
+			<a href="/logout">Log Out</a>
+			</p>
+		<% } %>
+		<%- body %>
+	</body>
+</html>
